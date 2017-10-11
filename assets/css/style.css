@@ -1,0 +1,19 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    color:  #1a3238;
+    font-size: 25px;
+    font-family: cursive;
+    text-align: center;
+}
+
+.container {
+    background-image: url("../images/USConstitution.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.well-lg {
+    background-color: #fcfbee;
+}
