@@ -3,19 +3,22 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>TriviaGame</title>
+    <title>Constitution Trivia</title>
+    <meta charset="UTF-8">
+ 
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
 <body>
-    <div class="container">
+    <div id="wrapper">
         <div class="row">
             <div class="col-md-12">
                 <div class="page-header text-center">
-                    <h1>Constitution Trivia Game</h1>
+                    <h1 id="title">Constitution Trivia</h1>
                 </div>
             </div>
         </div>
@@ -23,19 +26,14 @@
             <div class="col-md-2"> </div>
             <div class="col-md-8">
                 <div class="well well-lg">
-                    <div id="timer">Time</div>
-                    <h2 id="q1">Laws for the United States are made by</h2>
-                    <h2 id="q2">Our First Vice-President was:</h2>
-                    <h2 id="q3">The longest possible time a person can now serve as President is:</h2>
+                    <div id="subwrapper">
+                        <button id="start">Start</button>
+                    </div>
+                    </div>
+                    </div>
+         </div>
                 </div>
-            </div>
-            <div class="col-md-2"> </div>
-            <!--container end div  -->
-        </div>
-        <!-- jQuery -->
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <!-- Script -->
-        <script type="text/javascript" src="assets/javascript/app.js"></script>
+                <script type="text/javascript" src="assets/javascript/app.js"></script>
 </body>
 
 </html>
